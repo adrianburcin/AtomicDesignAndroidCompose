@@ -13,10 +13,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.composemediumexamples.ui.components.widgets.LoginWidget
+import com.example.composemediumexamples.ui.components.pages.LoginPage
 
 @Composable
-fun LoginPage() {
+fun LoginScreen() {
     Scaffold(
         topBar = {
             TopAppBar(
@@ -42,7 +42,7 @@ fun LoginPage() {
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                LoginWidget()
+                LoginPage()
             }
         })
 }
